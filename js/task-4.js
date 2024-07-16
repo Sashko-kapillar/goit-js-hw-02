@@ -1,7 +1,7 @@
-'use strict';
+'use strict'; // "режим суворої сумісності"
 
-function getShippingCost(country) {
-  switch {
+// function getShippingCost(country) {
+//   switch {
     
-  }
-}
+//   }
+// }
