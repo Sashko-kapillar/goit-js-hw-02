@@ -5,9 +5,9 @@ function checkForSpam(message) {
   const hasSpam = lowercaseInput.includes("spam");
   const hasSale = lowercaseInput.includes("sale");
   if (hasSpam || hasSale) {
-    return "true";
+    return true;
   } else {
-    return "false";
+    return false;
   }
 }
 
