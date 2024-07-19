@@ -1,19 +1,9 @@
-'use strict';
-
-// function getShippingMessage(country, price, deliveryFee){
-//   const totalPrice = price + deliveryFee;
-//   return `You ordered ${country} droids worth ${totalPrice} credits!`;
-// }
-
-// console.log(getShippingMessage("Australia", 120, 50)); 
-// console.log(getShippingMessage("Germany", 80, 20)); 
-// console.log(getShippingMessage("Sweden", 100, 20)); 
+"use strict";
 
 function formatMessage(message, maxLength) {
-  if (message.Length <= maxLength) {
+  if (message.length <= maxLength) {
     return `${message}`;
-  }
-  else {
+  } else {
     return `${message.slice(0, maxLength)}...`;
   }
 }
